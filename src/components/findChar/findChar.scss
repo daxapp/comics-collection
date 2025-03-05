@@ -1,0 +1,45 @@
+@import '../../style/variables.scss';
+
+.form {
+    margin-top: 30px;
+    padding: 25px;
+    width: 425px;
+    min-height: 127px;
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
+    &__label {
+        font-weight: 700;
+        font-size: 18px;
+        display: block;
+    }
+    &__input {
+        border: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
+        height: 40px;
+        width: 250px;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    &__button {
+        margin-left: 24px;
+    }    
+    &__message {
+        font-size: 18px;
+        font-weight: 700;
+        
+    }
+    &__error {
+        color: $main-color;
+        margin-top: 22px;
+    }
+    &__succses {
+        color: rgb(0, 138, 0);
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+}
